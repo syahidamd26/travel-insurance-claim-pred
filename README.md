@@ -57,14 +57,14 @@ Berdasarkan contoh hitungan pada business overview, terlihat bahwa dengan menggu
 Adapun beberapa rekomendasi yang dapat diberikan terkait sisi model dan bisnis:
 
 Model:
-Saat penarikan data, memastikan data yang didapat tidak ada missing value pada variabel gender
-Penambahan data historis yang lebih lama, terutama pemegang polis yang melakukan klaim agar mengurangi imbalance data yang signifikan
-Adanya kolom dengan fitur lain yang berhubungan dengan status klaim seperti ID pemegang polis, waktu pemesanan produk asuransi agar saat data cleaning lebih subjektif
-Model dapat ditingkatkan dengan melakukan tuning hyperparameter dengan nilai yang sudah didapat sebagai referensi dan menambahkan parameter lain
-Pemilihan teknik resampling lain yang belum digunakan seperti ADASYN (Adaptive Synthetic)
+- Saat penarikan data, memastikan data yang didapat tidak ada missing value pada variabel gender
+- Penambahan data historis yang lebih lama, terutama pemegang polis yang melakukan klaim agar mengurangi imbalance data yang signifikan
+- Adanya kolom dengan fitur lain yang berhubungan dengan status klaim seperti ID pemegang polis, waktu pemesanan produk asuransi agar saat data cleaning lebih subjektif
+- Model dapat ditingkatkan dengan melakukan tuning hyperparameter dengan nilai yang sudah didapat sebagai referensi dan menambahkan parameter lain
+- Pemilihan teknik resampling lain yang belum digunakan seperti ADASYN (Adaptive Synthetic)
 
 Bisnis:
-Pada dana yang disiapkan untuk pertanggungan klaim, sebagian dapat diinvestasikan juga pada platform yang dapat diambil dengan cepat (< dari waktu pencairan polis). Sehingga, dapat diambil sewaktu-waktu dibutuhkan dengan cepat. Namun, perlu dianalisa resikonya lebih lanjut.
-Maksimalkan sebagian biaya operasional untuk menambah customer travel insurance, dikarenakan berdasarkan data historis hanya 2% yang melakukan klaim dibandingkan 98% yang tidak melakukan klaim. Hal tersebut menandakan bahwa bisnis ini berjalan sangat baik dan menguntungkan.
-Menggunakan model machine learning yang telah dibuat sebagai pertimbangan solusi untuk menentukan proporsi dana untuk klaim, biaya operasional dan investasi. Tentunya dibutuhkan analisis dan evaluasi lebih mendalam untuk penerapannya
-Menganalisa data-data yang model kita masih salah tebak untuk mengetahui alasannya dan karakteristiknya bagaimana.
+- Pada dana yang disiapkan untuk pertanggungan klaim, sebagian dapat diinvestasikan juga pada platform yang dapat diambil dengan cepat (< dari waktu pencairan polis). Sehingga, dapat diambil sewaktu-waktu dibutuhkan dengan cepat. Namun, perlu dianalisa resikonya lebih lanjut.
+- Maksimalkan sebagian biaya operasional untuk menambah customer travel insurance, dikarenakan berdasarkan data historis hanya 2% yang melakukan klaim dibandingkan 98% yang tidak melakukan klaim. Hal tersebut menandakan bahwa bisnis ini berjalan sangat baik dan menguntungkan.
+- Menggunakan model machine learning yang telah dibuat sebagai pertimbangan solusi untuk menentukan proporsi dana untuk klaim, biaya operasional dan investasi. Tentunya dibutuhkan analisis dan evaluasi lebih mendalam untuk penerapannya
+- Menganalisa data-data yang model kita masih salah tebak untuk mengetahui alasannya dan karakteristiknya bagaimana.
