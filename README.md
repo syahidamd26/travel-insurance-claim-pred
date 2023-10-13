@@ -31,7 +31,9 @@ Jadi yang akan kita lakukan adalah menganalisis data untuk menemukan pola yang m
 ### Metric Evaluation :
 
 TP : Jumlah pemegang polis yang memang benar melakukan klaim
+
 TN : Jumlah pemegang polis yang memang benar tidak melakukan klaim
+
 Type of Error:
 
 Type 1 erorr (FP) : False Positive ( Pemegang polis diprediksi melakukan klaim, padahal aktualnya tidak melakukan klaim )
